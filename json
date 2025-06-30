@@ -1,0 +1,4 @@
+import json
+with open("C:\\Users\\chopp\\Documents\\pujitha\\json.txt") as files:
+    data = json.load(files)
+    print(data)

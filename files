@@ -1,0 +1,3 @@
+with open("C:\\Users\\chopp\\Desktop\\puji\\files.txt",'r') as files:
+    content = files.read()
+    print(content) 

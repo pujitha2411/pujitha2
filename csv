@@ -1,0 +1,5 @@
+import csv
+with open("C:\\Users\\chopp\\Desktop\\project\\Industry.csv")as files:
+     data = csv.reader(files)
+     for row in data:
+         print(row)
